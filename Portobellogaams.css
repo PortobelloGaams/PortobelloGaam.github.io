@@ -1,0 +1,131 @@
+body{
+    background-color: #fff
+}
+header{
+    background-color: #fff;
+    height: 93px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #000;
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 0;
+    position: relative;
+    position: fixed;
+    top: 0;
+    width: 95%;
+}
+#img{
+    width: 35px;
+    height: 35px;
+    margin: o;
+    padding-top: 17px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.a1{
+    display: flex;
+    position: relative;
+    top: 25px;
+    align-content: center;
+    padding-left: 82%;
+    color: #000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    padding-top: 0px;
+    padding-right: 25px;
+    font-size: large;
+    padding-left: 20px;
+    background-color: #365b6d;
+    position: relative;
+    position: fixed;
+    top: 15%;
+    width: 95%;
+    z-index: 10;
+    transition: all 300ms;
+}
+#nav-link1{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    margin: 0;
+    padding: 0px;
+    padding-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 30px;
+    transition: all 300ms;
+}
+.nav-link{
+    padding-top: 22px;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    margin: o;
+    padding-top: 12px;
+    margin-left: 20px;
+    margin-right: 10px;
+    transition: all 300ms;
+}
+.logo:hover{
+    transform: scale(2.00);
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+}
+nav a:hover{
+    color: #000;
+    transform: scale(1.50);
+}
+header:hover{
+    color: #365b6d;
+}
+#nav-link1:hover{
+    color: #000;
+    transform: scale(1.15);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 350%;
+    color: #365b6d;
+}
+.img1{
+    width: 600px;
+    height: 600px;
+    transition: all 300ms;
+}
+.img1:hover{
+    transform: scale(1.50);
+}
+footer a:hover{
+    color: #365b6d;
+}
+footer a{
+    color: #000;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+    justify-content: space-evenly;
+}
+footer div{
+    position: relative;
+    float: left;
+    padding-left: 9%;
+    padding-right: 9%;
+    height: 50%;
+}

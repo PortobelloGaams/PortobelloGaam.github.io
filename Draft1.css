@@ -1,0 +1,198 @@
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(comida.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header {
+    background-color: #fff;
+    height: 93px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #000;
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 0;
+    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#img {
+    width: 35px;
+    height: 35px;
+    margin: o;
+    padding-top: 17px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.a1 {
+    display: flex;
+    position: relative;
+    top: 25px;
+    align-content: center;
+    margin-left: 85%;
+    color: #000;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    position: fixed;
+    top: 15%;
+    width: 95%;
+    justify-content: space-between;
+    height: 73px;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    padding-top: 0px;
+    padding-right: 25px;
+    font-size: large;
+    padding-left: 20px;
+    background-color: #365b6d;
+    z-index: 10;
+    transition: all 300ms;
+}
+
+#nav-link1 {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    margin: 0;
+    padding: 0px;
+    padding-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    z-index: 10;
+    transition: all 300ms;
+}
+
+.nav-link {
+    padding-top: 22px;
+    position: relative;
+    z-index: 10;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    margin: o;
+    padding-top: 12px;
+    margin-left: 20px;
+    margin-right: 10px;
+    position: fixed;
+    transition: all 300ms;
+}
+
+.logo:hover {
+    transform: scale(2.00);
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+    position: relative;
+}
+
+nav a:hover {
+    color: #000;
+    transform: scale(1.50);
+}
+
+header a:hover {
+    color: #365b6d;
+}
+
+#nav-link1:hover {
+    color: #000;
+    transform: scale(1.15);
+}
+
+.caja1 {
+    background-color: #fff;
+    width: 50%;
+    height: 220px;
+    padding: 100px;
+    position: relative;
+    top: 250px;
+}
+
+.titulo1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #365b6d;
+    font-size: 200%;
+}
+
+.titulo2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #365b6d;
+    font-size: 300%;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2em;
+    overflow: hidden;
+    padding-top: 15%;
+    justify-content: space-evenly;
+    display: flex;
+    padding-left: 13%;
+    padding-right: 13%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2px;
+}
+
+.h3 {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #365b6d;
+    font-size: 200%;
+    text-align: center;
+}
+
+.normal {
+    width: 380px;
+    height: 290px;
+    border: 1px solid rgb(155, 151, 151);
+    margin: 10px;
+    text-align: justify;
+}
+
+.miniparagraphs {
+    margin: 20px;
+    font-size: 125%;
+}
+
+footer a:hover {
+    color: #365b6d;
+}
+
+footer a {
+    color: #000;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+footer div {
+    position: relative;
+    float: left;
+    padding-left: 9%;
+    padding-right: 9%;
+    height: 50%;
+}
